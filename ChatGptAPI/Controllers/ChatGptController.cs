@@ -24,7 +24,7 @@ namespace ChatGptAPI.Controllers
         {
             var results = "";
 
-            var apiKey = "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";
+            var apiKey = "";
 
             var gpt3 = new OpenAIService(new OpenAiOptions()
             {
